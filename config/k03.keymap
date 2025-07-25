@@ -38,9 +38,9 @@
                 <&enc_vol>,
                 <&enc_del>,
                 <&enc_vol>,
+                <&inc_dec_kp A B>,
                 <&enc_vol>,
-                <&enc_vol>,
-                <&enc_vol>;
+                <&inc_dec_kp C D>;
         };
 
         nav {
