@@ -12,6 +12,13 @@
             #sensor-binding-cells = <0>;
             bindings = <&kp C_VOL_UP>, <&kp C_VOL_DN>;
         };
+
+        enc_del: enc_del {
+            compatible = "zmk,behavior-sensor-rotate";
+            label = "ENC_DEL";
+            #sensor-binding-cells = <0>;
+            bindings = <&kp BACKSPACE>, <&none>;
+        };
     };
 
     keymap {
@@ -29,7 +36,7 @@
             display-name = "Base";
             sensor-bindings =
                 <&enc_vol>,
-                <&enc_vol>,
+                <&enc_del>,
                 <&enc_vol>,
                 <&enc_vol>,
                 <&enc_vol>,
