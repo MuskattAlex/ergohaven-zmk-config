@@ -35,12 +35,11 @@
 
             display-name = "Base";
             sensor-bindings =
+                <&inc_dec_kp RIGHT LEFT_ARROW>,
                 <&enc_vol>,
-                <&enc_del>,
                 <&enc_vol>,
-                <&inc_dec_kp A B>,
-                <&enc_vol>,
-                <&inc_dec_kp C D>;
+                <&inc_dec_kp BACKSPACE BACKSPACE>,
+                <&enc_vol>;
         };
 
         nav {
