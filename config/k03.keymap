@@ -28,10 +28,10 @@
 
             display-name = "Base";
             sensor-bindings =
-                <&enc_vol>,
-                <&enc_vol>,
-                <&inc_dec_kp LEFT_ARROW RIGHT_ARROW>,
+                <&inc_dec_kp RIGHT_ARROW LEFT_ARROW>,
                 <&inc_dec_kp DOWN UP_ARROW>,
+                <&enc_vol>,
+                <&enc_vol>,
                 <&enc_vol>,
                 <&enc_vol>;
         };
