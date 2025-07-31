@@ -30,8 +30,8 @@
             sensor-bindings =
                 <&enc_vol>,
                 <&enc_vol>,
-                <&enc_vol>,
-                <&enc_vol>,
+                <&inc_dec_kp LEFT_ARROW RIGHT_ARROW>,
+                <&inc_dec_kp DOWN UP_ARROW>,
                 <&enc_vol>,
                 <&enc_vol>;
         };
